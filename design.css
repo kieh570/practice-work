@@ -1,0 +1,40 @@
+#me{
+    border-style: inset;
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    padding-top:10px;
+    margin-bottom: 10px;
+    float: right;
+    background:linear-gradient( to top, yellow, blue);
+   }
+   body{
+    background-color:peachpuff;
+    color: #000;;
+   }
+   header{
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+    margin-bottom: 20px;
+    text-shadow: 5px 0px 0px yellow, 0px -5px 5px red;
+    padding: 3px;
+  }
+h1:hover{
+    background-color: white;
+    color: red;
+    text-shadow: 0px 5px 6px blue;
+}   
+h1:active{
+    background-color: purple;
+    color: red;
+    text-shadow: -5px -5px 3px orange;
+}
+#me:hover{
+    background-color: white;
+    color: red;
+    text-shadow: 0px 5px 6px white, 7px -7px 3px orange;
+}
